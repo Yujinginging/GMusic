@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.gmusic.Fragments.Home_"
+        android:label="Home"
+        tools:layout="@layout/home__fragment"/>
+
+    <fragment
+        android:id="@+id/nav_myplayer"
+        android:name="com.example.gmusic.Fragments.MyPlayer"
+        android:label="My Player"
+        tools:layout="@layout/my_player_fragment"/>
+
+
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="com.example.gmusic.Fragments.Logout"
+        android:label="log out"
+        tools:layout="@layout/logout_fragment"/>
+    <fragment
+        android:id="@+id/nav_searchside"
+        android:name="com.example.gmusic.Fragments.Search"
+        android:label="Search"
+        tools:layout="@layout/search_fragment"/>
+
+    <fragment
+        android:id="@+id/nav_favourite"
+        android:name="com.example.gmusic.Fragments.Favourite"
+        android:label="favourite songs"
+        tools:layout="@layout/activity_signup"/>
+
+</navigation>

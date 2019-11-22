@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "366019936783",
+    "firebase_url": "https://gmusic-92185.firebaseio.com",
+    "project_id": "gmusic-92185",
+    "storage_bucket": "gmusic-92185.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:366019936783:android:5fd63323c06302718e597a",
+        "android_client_info": {
+          "package_name": "com.example.gmusic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "366019936783-i29phs82h5ouchf6l007fob7e0u1jefq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gmusic",
+            "certificate_hash": "2fa8e614f90aaf8eff50d0d04e6d37a9ff7f405e"
+          }
+        },
+        {
+          "client_id": "366019936783-v1q9if8vdoc7rmbprl7qfv901m6vu37e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCH4fg65B6qzqpXiF_AMLcHITzBFzI9ItY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "366019936783-v1q9if8vdoc7rmbprl7qfv901m6vu37e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

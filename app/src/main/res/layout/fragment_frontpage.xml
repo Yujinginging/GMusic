@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activitys.MainActivity"
+    android:background="@color/colorPrimary">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="264dp"
+        android:layout_height="244dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="73dp"
+        android:layout_marginTop="74dp"
+        android:layout_marginEnd="74dp"
+        android:layout_marginBottom="342dp"
+        app:srcCompat="@mipmap/ic_launcher_foreground_logo" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="246dp"
+        android:layout_height="53dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="83dp"
+        android:layout_marginEnd="82dp"
+        android:layout_marginBottom="584dp"
+        android:gravity="center"
+        android:text="Welcome to GUMusic!"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:id="@+id/tv_register"
+        android:layout_width="214dp"
+        android:layout_height="62dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="188dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="22dp"
+        android:gravity="center"
+        android:text="Do not have an account yet? SIGN UP HERE!"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp" />
+
+
+    <Button
+        android:id="@+id/btn_logintext"
+        android:layout_width="129dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="143dp"
+        android:layout_marginTop="393dp"
+        android:layout_marginEnd="139dp"
+        android:layout_marginBottom="216dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="LOG IN"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="22sp" />
+
+
+</RelativeLayout>

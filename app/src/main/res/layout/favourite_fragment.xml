@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.Favourite"
+    android:background="@color/colorPrimary">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="My Favourite songs:"
+            android:textColor="@color/colorWhite"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_favouritesongs"
+            android:layout_width="match_parent"
+            android:layout_height="480dp"
+            android:layout_marginTop="10dp">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+    </LinearLayout>
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        android:clickable="true"
+        android:scrollbarSize="1dp"
+        android:src="@drawable/ic_add_circle_outline_white_24dp"
+        app:backgroundTint="#003F51B5"
+        app:elevation="1dp"
+        app:fabCustomSize="90dp"
+        app:fabSize="auto"
+        app:maxImageSize="60dp"
+        app:rippleColor="@color/colorWhite" />
+
+</FrameLayout>
